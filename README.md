@@ -113,7 +113,7 @@ Následně systém restartujeme pomocí příkazu `reboot`.
 
 ### Testování přístupu ke sdílené složce  
 
-1. V systému **Windows** vytvořte testovací soubor v namapovaném adresáři.  
+1. V systému **Windows** vytvořte testovací soubor (*například nový TXT dokument*) v namapovaném adresáři.  
 2. Přihlaste se jako **root** a ověřte přístup do sdílené složky:  
 
 ```bash
@@ -126,10 +126,10 @@ Výstup by měl obsahovat nově vytvořený soubor.
 
 3. Přihlaste se jako uživatel **student** a zopakujte postup:  
    - ***Přístup bude pravděpodobně zamítnut.***  
-   - Pokuste se proto provést příkaz pro nadřazenou složku:  
+   - Pokuste se proto provést stejný příkaz pro nadřazenou složku:  
 
 ```bash
-cd /home/students
+cd /home/student
 ls -All
 ```
 
@@ -159,4 +159,11 @@ sudo usermod -aG vboxsf student
 ```
 
 > **Poznámka:** Uživatel `student` se musí po přidání do skupiny odhlásit a znovu přihlásit, aby se změna projevila.
+
+4. Pokud je přístup do složky `/home/student/scripts` funkční a váš soubor je viditelný, vytovořte nový soubor `test.sh` příkazem:
+```bash
+touch test.sh
+```
+a porovnejte seznam souborů v hostitelském počítači (Windows) ve vaší složce. 
+
 
