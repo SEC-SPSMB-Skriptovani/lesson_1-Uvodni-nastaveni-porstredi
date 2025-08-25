@@ -167,3 +167,22 @@ touch test.sh
 a porovnejte seznam souborů v hostitelském počítači (Windows) ve vaší složce. 
 
 
+## Seznam použitých příkazů
+
+| Příkaz                                | Popis                                                                 |
+|--------------------------------------|----------------------------------------------------------------------|
+| `ping google.com`                    | Ověření připojení k síti Internet pomocí ICMP požadavků.              |
+| `sudo apt update && sudo apt upgrade -y` | Aktualizace seznamu balíčků a instalace nejnovějších verzí.        |
+| `nano /etc/default/keyboard`         | Otevření konfiguračního souboru klávesnice v editoru `nano`.          |
+| `mount /dev/cdrom /media/cdrom`      | Připojení CD-ROM (s ISO Guest Additions) do adresáře `/media/cdrom`. |
+| `cd /media/cdrom`                    | Přechod do adresáře s připojeným CD-ROM.                             |
+| `./VBoxLinuxAdditions.run`           | Spuštění instalačního skriptu pro VirtualBox Guest Additions.        |
+| `reboot`                             | Restartování systému.                                                 |
+| `poweroff`                           | Vypnutí virtuálního počítače.                                         |
+| `su -`                               | Přihlášení jako uživatel `root` (administrátor).                      |
+| `cd /home/student/scripts`           | Přechod do adresáře `scripts` v uživatelském adresáři studenta.       |
+| `ls -All`                            | Výpis obsahu adresáře se zobrazením detailních informací.             |
+| `cd /home/student`                   | Přechod do domovského adresáře uživatele `student`.                   |
+| `sudo usermod -aG vboxsf student`    | Přidání uživatele `student` do skupiny `vboxsf` (pro sdílené složky). |
+| `touch test.sh`                      | Vytvoření prázdného souboru `test.sh`. 
+
