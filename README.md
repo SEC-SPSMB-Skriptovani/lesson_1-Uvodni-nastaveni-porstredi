@@ -108,6 +108,7 @@ Následně systém restartujeme pomocí příkazu `reboot`.
 3. V **nastavení** Virtualboxu sekci **Sdílené složky** vytvořte novou sdílenou složku odkazující na námi vytovřenou složku s **Mount point** (adresář, kde bude tato složka dostupná uvnitř virtuálního stroje) na `/home/student/scripts`.
    Nezapomeňte zaškrtnout **Automatické připojení**.
 <img width="300" height="578" alt="image" src="https://github.com/user-attachments/assets/59cb1d25-1af0-4cd5-b9a9-716f333f1dc7" />
+
 4. Opět spustíme virtuální počítač.
 
 ### Testování přístupu ke sdílené složce  
