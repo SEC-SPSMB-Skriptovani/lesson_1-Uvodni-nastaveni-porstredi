@@ -45,7 +45,7 @@ ping google.com
 ### Aktualizace systému
 přihlašte se jako administrátor `root` a následně zadej příkaz:
 ```bash
-apt update && sudo apt upgrade -y
+apt update && apt upgrade -y
 ```
 
 ## Změna layoutu klávesnice na **CZECH QWERTZ** (volitelné)
