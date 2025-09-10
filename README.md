@@ -155,7 +155,7 @@ V systému Linux není možné přiřadit více vlastníků, proto je nutné př
 Příkaz pro přidání:  
 
 ```bash
-sudo usermod -aG vboxsf student
+usermod -aG vboxsf student
 ```
 
 > **Poznámka:** Uživatel `student` se musí po přidání do skupiny odhlásit a znovu přihlásit, aby se změna projevila.
@@ -172,7 +172,7 @@ a porovnejte seznam souborů v hostitelském počítači (Windows) ve vaší slo
 | Příkaz                                | Popis                                                                 |
 |--------------------------------------|----------------------------------------------------------------------|
 | `ping google.com`                    | Ověření připojení k síti Internet pomocí ICMP požadavků.              |
-| `sudo apt update && sudo apt upgrade -y` | Aktualizace seznamu balíčků a instalace nejnovějších verzí.        |
+| `apt update && apt upgrade -y` | Aktualizace seznamu balíčků a instalace nejnovějších verzí.        |
 | `nano /etc/default/keyboard`         | Otevření konfiguračního souboru klávesnice v editoru `nano`.          |
 | `mount /dev/cdrom /media/cdrom`      | Připojení CD-ROM (s ISO Guest Additions) do adresáře `/media/cdrom`. |
 | `cd /media/cdrom`                    | Přechod do adresáře s připojeným CD-ROM.                             |
@@ -183,6 +183,6 @@ a porovnejte seznam souborů v hostitelském počítači (Windows) ve vaší slo
 | `cd /home/student/scripts`           | Přechod do adresáře `scripts` v uživatelském adresáři studenta.       |
 | `ls -All`                            | Výpis obsahu adresáře se zobrazením detailních informací.             |
 | `cd /home/student`                   | Přechod do domovského adresáře uživatele `student`.                   |
-| `sudo usermod -aG vboxsf student`    | Přidání uživatele `student` do skupiny `vboxsf` (pro sdílené složky). |
+| `usermod -aG vboxsf student`    | Přidání uživatele `student` do skupiny `vboxsf` (pro sdílené složky). |
 | `touch test.sh`                      | Vytvoření prázdného souboru `test.sh`. 
 
