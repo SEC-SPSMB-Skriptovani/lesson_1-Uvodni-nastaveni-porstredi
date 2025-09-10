@@ -119,7 +119,7 @@ Následně systém restartujeme pomocí příkazu `reboot`.
 ```bash
 su -
 cd /home/student/scripts
-ls -All
+ls -Al
 ```
 
 Výstup by měl obsahovat nově vytvořený soubor.  
@@ -130,7 +130,7 @@ Výstup by měl obsahovat nově vytvořený soubor.
 
 ```bash
 cd /home/student
-ls -All
+ls -Al
 ```
 
 Výstup může vypadat následovně:  
